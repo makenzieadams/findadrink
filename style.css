@@ -1,5 +1,5 @@
 header {
-  background-color: #8a9ea0;
+  background-color: #f6cbb7;
   height: 70px;
   overflow: hidden;
   -webkit-box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.68);
@@ -11,11 +11,20 @@ header {
   font-size: 3rem;
 }
 
-/* header img {
-  height: 200px;
-  margin-top: -55px;
-  margin-left: 42%;
-} */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-container {
+  height: 300px;
+}
+
+.logo-container img {
+  margin-top: -142px;
+  margin-left: 22%;
+  height: 700px;
+}
 
 body {
   background-color: #fcfaf0;
