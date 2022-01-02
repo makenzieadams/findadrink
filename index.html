@@ -18,7 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
     />
-    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="index.js" async></script>
   </head>
   <body>
     <header>
@@ -29,14 +30,16 @@
       <div class="logo-container">
         <img src="logo.svg" alt="Logo" />
       </div>
+      <!--  -->
       <div class="search-container">
-        <input type="text" placeholder="Search.." />
-        <div class="button1"><input type="button" value="Find My Drink" /></div>
+        <form>
+          <input type="text" placeholder="Search.." />
+          <button type="submit">Find My Drink</button>
+        </form>
       </div>
+      <!--  -->
+      <h2>Feeling Random? Click Me!</h2>
+      <div class="gif"><button type="button"></button>
     </div>
-    <h2>
-      Feeling Random?
-      <img src="random.gif" alt="Click Me" />
-    </h2>
   </body>
 </html>

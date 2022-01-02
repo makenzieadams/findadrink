@@ -28,32 +28,38 @@ header {
 
 body {
   background-color: #fcfaf0;
-}
-
-.search-container {
-  margin-top: 25px;
-  margin-left: 44%;
-}
-
-.button1 {
-  margin-top: 15px;
-  margin-left: 6%;
-  font-family: "Bebas Neue", cursive;
-}
-
-.button1 button {
-  font-family: "Padauk", sans-serif;
-  background-color: tomato;
-}
-
-h2 {
-  margin-top: 45px;
-  margin-left: 55%;
-  font-size: 25px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-h2 img {
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
   margin-top: 45px;
-  margin-left: 50%;
+  font-size: 25px;
+}
+
+.gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gif button {
+  margin-top: 5px;
+  height: 200px;
+  width: 200px;
+  background: url("/random.gif");
+  background-size: contain;
+  border: none;
+  cursor: pointer;
 }
