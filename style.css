@@ -1,0 +1,9 @@
+header {
+  background-color: slateblue;
+  height: 150px;
+  overflow: hidden;
+}
+
+header img {
+  margin-top: -100px;
+}
