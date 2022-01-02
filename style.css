@@ -1,9 +1,22 @@
 header {
-  background-color: slateblue;
-  height: 150px;
+  background-color: #8a9ea0;
+  height: 70px;
   overflow: hidden;
+  -webkit-box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.68);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
 }
 
-header img {
-  margin-top: -100px;
+/* header img {
+  height: 200px;
+  margin-top: -55px;
+  margin-left: 42%;
+} */
+
+body {
+  background-color: #fcfaf0;
 }
